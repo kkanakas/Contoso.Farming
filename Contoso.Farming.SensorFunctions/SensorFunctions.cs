@@ -45,7 +45,7 @@ namespace Contoso.Farming.SensorFunctions
                     Group = "Soil Humidity",
                     LastReading = new SensorReading
                     {
-                        Reading = new Random().NextDouble(),
+                        Reading = new Random().NextDouble()*10,
                         Timestamp = DateTime.Now
                     },
                     Name = $"soil-{i}",
@@ -57,7 +57,7 @@ namespace Contoso.Farming.SensorFunctions
                     Group = "Temperature",
                     LastReading = new SensorReading
                     {
-                        Reading = new Random().NextDouble(),
+                        Reading = new Random().NextDouble()*100,
                         Timestamp = DateTime.Now
                     },
                     Name = $"temp-{i}",

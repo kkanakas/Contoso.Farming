@@ -7,19 +7,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Contoso.Farming.SensorFunctions
+namespace Xiaomi.Retail.Functions
 {
     public class OpenAPIConfiguration : IOpenApiConfigurationOptions
     {
         public OpenApiInfo Info { get; set; } = new OpenApiInfo()
         {
             Version = "1.0.0",
-            Title = "Contoso Farming Sensor APIs",
-            Description = "Functions used to collect sensor data from farm equipment",
+            Title = "Xiaomi Retail Functions",
+            Description = "Functions used to query product SKUs",
             Contact = new OpenApiContact()
             {
-                Name = "Contoso",
-                Email = "farming-support@contoso.com"
+                Name = "Xiaomi",
+                Email = "XiaomiRetail-support@Xiaomi.com"
             }
         };
 

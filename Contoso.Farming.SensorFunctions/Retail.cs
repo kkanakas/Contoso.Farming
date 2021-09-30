@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Contoso.Farming.SensorFunctions
+namespace Xiaomi.Retail.Functions
 {
-    public class Sensor
+    public class Retail
     {
         public string Group { get; set; }
         public string Type { get; set; }
         public string Name { get; set; }
-        public SensorReading LastReading { get; set; }
+        public RetailReading LastReading { get; set; }
     }
 }

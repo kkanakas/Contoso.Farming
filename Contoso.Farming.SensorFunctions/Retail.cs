@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Xiaomi.Retail.Functions
+namespace Contoso.Retail.Functions
 {
     public class Retail
     {

@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
-namespace Xiaomi.Retail.Functions
+namespace Contoso.Retail.Functions
 {
     public static class RetailFunctions
     {
@@ -38,11 +38,11 @@ namespace Xiaomi.Retail.Functions
         static List<Retail> GetRetailData()
         {
             var retails = new List<Retail>();
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i <=30; i++)
             {
                 retails.Add(new Retail
                 {
-                    Group = "Phone",
+                    Group = "Xbox Series X",
                     LastReading = new RetailReading
                     {
                          SKU = new Random().Next(0,1000000)*10,
@@ -54,7 +54,7 @@ namespace Xiaomi.Retail.Functions
 
                 retails.Add(new Retail
                 {
-                    Group = "Serial Number",
+                    Group = "Xbox Series S",
                     LastReading = new RetailReading
                     {
                         SKU = new Random().Next(0, 1000000) *100,

@@ -7,19 +7,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Xiaomi.Retail.Functions
+namespace Contoso.Retail.Functions
 {
     public class OpenAPIConfiguration : IOpenApiConfigurationOptions
     {
         public OpenApiInfo Info { get; set; } = new OpenApiInfo()
         {
             Version = "1.0.0",
-            Title = "Xiaomi Retail Functions",
+            Title = "Inventory Application",
             Description = "Functions used to query product SKUs",
             Contact = new OpenApiContact()
             {
-                Name = "Xiaomi",
-                Email = "XiaomiRetail-support@Xiaomi.com"
+                Name = "Contoso Retail",
+                Email = "Contoso-Retail@support.com"
             }
         };
 
